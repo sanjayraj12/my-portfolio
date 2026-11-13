@@ -1,8 +1,7 @@
-
 import { motion } from "framer-motion";
 import { Download } from "lucide-react";
 import profile from "./assets/profile.png";
-import resume from "./assets/Sanjay_Raj_Resume.pdf";
+import resume from "./assets/SanjayRaj_Marketer_CV.pdf";
 import "./index.css";
 
 const dciCampaigns = [
@@ -15,7 +14,7 @@ const dciCampaigns = [
       "Creative & Copy Testing",
       "Event Optimization",
     ],
-    result: "2,600+ Installs | 1,300+ App Events",
+    result: "4,596+ Installs | ₹48.23 Average CPI | ₹2.22L Ad Spend",
   },
   {
     title: "Google Ads Campaign",
@@ -26,7 +25,7 @@ const dciCampaigns = [
       "Bidding & Budget Optimization",
       "Creative Asset Testing",
     ],
-    result: "5,000+ Installs | 750+ App Events",
+    result: "8,814+ Installs | ₹24.20 Average CPI | ₹2.13L Ad Spend",
   },
   {
     title: "LinkedIn Ads Campaign",
@@ -37,18 +36,18 @@ const dciCampaigns = [
       "Creative & Copy Optimization",
       "Click Cost Optimization",
     ],
-    result: "1,600+ Clicks | ₹6.86 CPC",
+    result: "1,649+ Website Visits | ₹6.86 Per Result | 1.93% CTR",
   },
   {
-    title: "GoHighLevel Automation",
-    objective: "Lead Follow-up & Marketing Automation",
+    title: "Campaign Management & Lead Nurturing",
+    objective: "Campaign Execution, Analysis & Marketing Automation",
     work: [
-      "Workflow Creation",
-      "SMS & Email Automation",
-      "Follow-up Sequences",
-      "Lead Nurturing & Workflow Management",
+      "Campaign Monitoring Across Multiple Platforms",
+      "Lead Generation & App Acquisition Support",
+      "Performance Analysis & Optimisation Opportunities",
+      "Structured Email, SMS & Automated Follow-ups",
     ],
-    result: "Automated Lead Follow-up Workflows",
+    result: "Campaign Optimisation & Automated Lead Follow-up Workflows",
   },
 ];
 
@@ -156,12 +155,12 @@ const skills = [
   {
     title: "Marketing Automation",
     items:
-      "GoHighLevel (GHL), ManyChat Automation, Interakt, Grexa.ai, WhatsApp Marketing, Email & SMS Automation, Lead Follow-up Workflows",
+      "GoHighLevel (GHL), ManyChat Automation, Interakt, Grexa.ai, WhatsApp Marketing, Email & SMS Automation, Conditional Workflow Triggers, Lead Nurturing Sequences, Automated Follow-ups",
   },
   {
     title: "Marketing Platforms & Tools",
     items:
-      "Meta Business Suite, Google Ads Manager, Google Merchant Center, WordPress, IndiaMART, Facebook Marketplace, Canva, Looker Studio",
+      "Meta Business Suite, Google Ads Manager, Google Merchant Center, WordPress, IndiaMART, Facebook Marketplace, Canva, Looker Studio, Exploring AI-Assisted Video Creation",
   },
 ];
 
@@ -231,9 +230,11 @@ export default function App() {
           </p>
 
           <p className="intro">
-            I run and optimise paid campaigns, drive app installs and
-            qualified leads, and use performance data to improve
-            marketing results for B2B and B2C businesses.
+            I manage paid advertising campaigns, drive app installs and
+            generate qualified leads. Beyond campaign execution, I work
+            on lead nurturing, marketing automation and performance
+            analysis to help businesses improve their marketing outcomes
+            across B2B and B2C.
           </p>
 
           <div className="hero-buttons">
@@ -263,12 +264,24 @@ export default function App() {
           <h2>About Me</h2>
 
           <p>
-            Performance Marketing professional with hands-on
-            experience in Meta Ads, Google Ads, LinkedIn Ads, and
-            mobile app marketing. Skilled in lead generation,
-            campaign optimisation, ASO, performance analysis, and
-            marketing automation, with a focus on improving campaign
-            efficiency and delivering measurable results.
+            Performance Marketing professional with hands-on experience
+            in Meta Ads, Google Ads, LinkedIn Ads and mobile app marketing.
+            Experienced in managing paid campaigns, generating leads and
+            app installs, analysing campaign performance and identifying
+            opportunities for improvement.
+          </p>
+
+          <p style={{ marginTop: "16px" }}>
+            My work also extends to marketing automation, where I build
+            lead-nurturing workflows using email and SMS communication,
+            conditional logic and automated follow-ups. I also explore
+            AI-assisted video creation to support advertising campaigns
+            and creative development.
+          </p>
+
+          <p style={{ marginTop: "16px" }}>
+            I focus on connecting campaign strategy, execution and
+            performance insights to deliver measurable marketing outcomes.
           </p>
         </section>
       </Fade>
@@ -287,15 +300,15 @@ export default function App() {
             >
               <li>
                 <strong>Meta Ads:</strong> Managed and analysed
-                app-promotion campaigns reporting 2,698 installs
-                at an average CPI of ₹39.00, evaluating CTR, CPC,
-                CPM, and spend.
+                app-promotion campaigns reporting 4,596 installs
+                at an average CPI of ₹48.23, while evaluating CTR,
+                CPC, CPM, spend and campaign performance.
               </li>
 
               <li>
                 <strong>Google Ads:</strong> Executed and analysed
-                app-promotion campaigns, generating 5,013 reported
-                installs at an average CPI of ₹18.75, while
+                app-promotion campaigns, generating 8,814 reported
+                installs at an average CPI of ₹24.20, while
                 monitoring in-app events and campaign performance.
               </li>
 
@@ -313,9 +326,17 @@ export default function App() {
               </li>
 
               <li>
-                <strong>Marketing Automation:</strong> Integrated
-                Meta lead forms with GoHighLevel and configured
-                automated email and SMS follow-up workflows.
+                <strong>Lead Nurturing &amp; Automation:</strong>{" "}
+                Connected Meta lead forms with GoHighLevel and built
+                email/Gmail and SMS follow-up sequences. Added conditional
+                checks to track lead actions and automatically stop
+                further nurturing when a lead completed the required action.
+              </li>
+
+              <li>
+                <strong>AI-Assisted Creative Development:</strong>{" "}
+                Exploring AI video tools to develop video ad creatives
+                and support campaign content production.
               </li>
 
               <li>
